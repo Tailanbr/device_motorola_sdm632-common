@@ -46,6 +46,10 @@
 /data/vendor/.fps(/.*)?                                       u:object_r:fingerprint_data_file:s0
 /dev/esfp0                                                    u:object_r:tee_device:s0
 
+# FPS Info
+/sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fps:s0
+
+
 # Input devices
 /(vendor|system/vendor)/usr/idc(/.*)?                         u:object_r:vendor_idc_file:s0
 /(vendor|system/vendor)/usr/keylayout(/.*)?                   u:object_r:vendor_keylayout_file:s0
