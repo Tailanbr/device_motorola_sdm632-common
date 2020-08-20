@@ -234,6 +234,7 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.sensors.sh \
     init.qcom.sh \
+    loggy.sh \
     init.qti.qseecomd.sh \
     init.hidl.sensor.rc \
     init.mmi.chipset.rc \
